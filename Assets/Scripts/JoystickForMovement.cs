@@ -11,10 +11,10 @@ public class JoystickForMovement : JoystickHandler
             characterMovement.MoveCharacter(new Vector3(InputVector.x, 0, InputVector.y));
             characterMovement.RotateCharacter(new Vector3(InputVector.x, 0, InputVector.y));
         }
-        else
-        {
-            characterMovement.MoveCharacter(new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")));
-            characterMovement.RotateCharacter(new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")));
-        }
+        // else
+        // {
+        //     characterMovement.MoveCharacter(new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")));
+        //     characterMovement.RotateCharacter(new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")));
+        // }
     }
 }

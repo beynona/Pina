@@ -123,6 +123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d3964289a7c3ee46b4b38720c1dae52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 0}
+  _player: {fileID: 1277650061995395447, guid: 993e293e117a8884ab3eaac923d9215d, type: 3}
   _minimalDistanceDetection: 10
   distanceDisplay: {fileID: 0}

@@ -304,7 +304,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!114 &8938742054276550664
 MonoBehaviour:
@@ -576,7 +576,7 @@ MonoBehaviour:
   _joystickArea: {fileID: 1053148717142548315}
   inActiveJoystickColor: {r: 0.30213594, g: 0.7735849, b: 0.42061415, a: 0}
   activeJoystickColor: {r: 0, g: 0.25490198, b: 1, a: 0}
-  characterMovement: {fileID: 0}
+  characterMovement: {fileID: 6697078772441849827, guid: 993e293e117a8884ab3eaac923d9215d, type: 3}
 --- !u!1 &4109331813171566750
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,7 +834,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5189673524020412633}
-  m_CullTransparentMesh: 1
+  m_CullTransparentMesh: 0
 --- !u!114 &447530181817181975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -909,7 +909,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 3411340248384373469, guid: 993e293e117a8884ab3eaac923d9215d, type: 3}
         m_TargetAssemblyTypeName: Health, Assembly-CSharp
         m_MethodName: Damaged
         m_Mode: 1
@@ -1038,7 +1038,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 4855208179144645046}
   m_OnClick:
     m_PersistentCalls:
@@ -1067,7 +1067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 312151d42d61665468310cbc13197327, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _characterJumpHandler: {fileID: 0}
+  _characterJumpHandler: {fileID: 7454724571881262916, guid: 993e293e117a8884ab3eaac923d9215d, type: 3}
 --- !u!1 &8702936216967694645
 GameObject:
   m_ObjectHideFlags: 0
